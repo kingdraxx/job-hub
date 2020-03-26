@@ -55,6 +55,7 @@ body {
   font-size: 5em;
   color: #fff;
   font-weight: 500;
+  margin-right: 20vw;
 }
 
 #content {
@@ -163,4 +164,68 @@ img {
 }
 
 @media (max-width: 760px) {
+  #navbar ul {
+    display: none;
+  }
+
+  .h1 {
+    margin: 0;
+    font-size: 2.5em;
+    margin-left: 3vw;
+    margin-right: 3vw;
+  }
+
+  .flexx {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  #content {
+    margin: 0;
+    margin-top: 18vh;
+  }
+
+  .line1 {
+    padding: 0.5em;
+    background-color: #fff;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+  }
+
+  .line2 {
+    padding: 0.5em;
+    background-color: #fff;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+  }
+
+  .logo {
+    font-size: 1em;
+  }
+
+  .btnn {
+    width: 30vw;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+
+  img {
+    height: 0.7em;
+  }
+
+  .search-text {
+    font-size: 0.9em;
+  }
+
+  .job-title input {
+    width: 50vw;
+    padding: 0.7em;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin-left: 10vw;
+  }
+
+  .job-title ::placeholder {
+    font-size: 0.7em;
+  }
 }
