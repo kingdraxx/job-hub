@@ -161,3 +161,6 @@ img {
   text-align: center;
   margin-top: 2em;
 }
+
+@media (max-width: 760px) {
+}
